@@ -1,0 +1,65 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background:url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: cover;
+}
+
+.signUp{
+    position: absolute;
+    border: 2px solid;
+    width: 500px;
+    background:transparent;
+    text-align: center;
+    top: 30%;
+    left:30%;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h2{
+    position: relative;
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+input{
+    outline: none;
+    width: 75%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 2px;
+    background: transparent;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+input:hover,input:focus{
+    border: 2px solid black;
+    outline: none;
+    color: aliceblue;
+    
+    
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid;
+    background:transparent;
+    font-size: 15px;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: chocolate;
+}
